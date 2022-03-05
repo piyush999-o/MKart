@@ -8,15 +8,12 @@ export const getStaticProps = async () => {
 
   return {
     props: {
-      data,
+      data: data,
     },
   };
 };
 
 export default function Home({ data }) {
-  if ('name' === 'name') {
-    console.log(true);
-  }
   return (
     <div className={styles.container}>
       <Head>
